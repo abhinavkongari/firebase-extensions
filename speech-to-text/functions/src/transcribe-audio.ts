@@ -31,7 +31,7 @@ import config from './config';
 import {probePromise, getTranscriptionsByChannel} from './util';
 
 const encoding = 'LINEAR16';
-const TRANSCODE_TARGET_FILE_EXTENSION = '.wav';
+const TRANSCODE_TARGET_FILE_EXTENSION = '';
 
 export async function transcribeAndUpload({
   client,
